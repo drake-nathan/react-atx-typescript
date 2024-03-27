@@ -9,6 +9,7 @@
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:jsx-a11y/strict",
+    "plugin:tailwindcss/recommended",
     "plugin:perfectionist/recommended-natural",
     "prettier"
   ],
@@ -28,7 +29,8 @@
     "import",
     "jsx-a11y",
     "react-refresh",
-    "perfectionist"
+    "perfectionist",
+    "tailwindcss"
   ],
   "root": true,
   "rules": {
@@ -47,6 +49,7 @@
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-import-type-side-effects": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-call": "off",
